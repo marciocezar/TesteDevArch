@@ -1,0 +1,98 @@
+# .gitignore para projetos .NET em ambientes macOS e Windows
+
+# Ignore arquivos de build do .NET
+bin/
+obj/
+out/
+Migrations/
+
+# Arquivos de log
+*.log
+*.tlog
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.pid
+*.csproj.user
+*.userosscache
+*.userprefs
+
+# Arquivos do Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+*.sln.metaproj
+*.sln.metaproj.tmp
+
+# Arquivos de configuração locais
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Staging.json
+appsettings.Test.json
+
+# Arquivos gerados por ferramentas
+*.generated.cs
+*.Designer.cs
+*.g.cs
+*.g.i.cs
+*.dll.config
+*.dll.config.*
+
+# Dependências NuGet
+*.nupkg
+*.nuget.props
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+.nuget/
+
+# Arquivos de cache do Rider e do JetBrains
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/kotlinc/
+.idea/**/modules.xml
+
+# Arquivos de cache do Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos de backup do MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de backup do Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos de metadados de volume (Windows e Mac)
+.Spotlight-V100
+.Trashes
+.Trash-*
+
+# Arquivos de cache de outros editores
+*.swp
+*.swo
+
+# Logs de sistema
+logs/
+*.log
+
+# Arquivos de cache do sistema operacional
+ehthumbs.db
+Icon?
+Thumbs.db

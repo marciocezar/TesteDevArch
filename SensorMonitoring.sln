@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.Tests", "SensorMonitoring.Tests\SensorMonitoring.Tests.csproj", "{89D09FE6-38FF-46CF-9A9E-0E483CB98DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.API", "SensorMonitoring.API\SensorMonitoring.API.csproj", "{F070C596-F1DB-41DB-81A3-BB51F8256CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89D09FE6-38FF-46CF-9A9E-0E483CB98DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D09FE6-38FF-46CF-9A9E-0E483CB98DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D09FE6-38FF-46CF-9A9E-0E483CB98DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D09FE6-38FF-46CF-9A9E-0E483CB98DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F070C596-F1DB-41DB-81A3-BB51F8256CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F070C596-F1DB-41DB-81A3-BB51F8256CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F070C596-F1DB-41DB-81A3-BB51F8256CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F070C596-F1DB-41DB-81A3-BB51F8256CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
